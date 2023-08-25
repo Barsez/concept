@@ -1,0 +1,136 @@
+									/* responsive */
+
+@media screen and (max-width:1400px) {
+		.man {
+		width: 50%;
+	}
+}
+@media screen and (max-width:1200px) {
+	.man {
+		display: none;
+	}
+	.header_block {
+		width: 100%;
+		background-image: url("../img/man.png");
+		background-size: cover;
+	}
+	#btn_demo {
+		float: right;
+	}
+}
+@media screen and (max-width:992px) {
+	.section2_block {
+		flex-direction: column;
+		padding: 0;
+		margin-bottom: 50px;
+	}
+	.section5__block {
+		flex-direction: column-reverse;
+	}
+	.section5__block1 {
+		margin: 0;
+	}
+	.section7__block {
+		width: 100%;
+	}
+	.section6__block {
+		flex-direction: column;
+	}
+	.img_block img {
+		width: 150%;
+		margin: 0;
+	}
+	.img_block {
+		margin-bottom: 50px;
+		width: 100%;
+		margin-right: 100px;
+	}
+	.section2_block1-1 button {
+		margin-bottom: 50px;
+	}
+	.header_up {
+		flex-direction: column;
+		padding-top: 20px;
+	}
+	.buttons {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.button__signin {
+		float: right;
+	}
+	.header_up .nav {
+		width: 100%
+	}
+}
+@media screen and (max-width:768px) {
+	.section6__block > img {
+		width: 100%;
+	}
+	.graph1{
+		width: 100%
+	}
+	.section2_block1-1 {
+		width: 100%;
+	}
+	.many, .header_text{
+		width: 100%;
+	}
+}
+@media screen and (max-width:568px) {
+	.container {
+		padding: 0 2%!important;
+	}
+	.section2_text {
+		width: 100%;
+	}
+	.section1__block1, .section1__block2 {
+		flex-direction: column;
+		padding: 0;
+		margin-bottom: 50px;
+	}
+
+
+
+	.subblock1, .subblock2, .subblock3 {
+		width: 100%;
+	}
+	.numbers {
+		flex-direction: column;
+		margin-bottom: 50px;
+		padding: 0;
+	}
+	.numbers div {
+		width: 100%;
+	}
+	.section6__block, .section7, .section5__block, .footer__up, .footer__list {
+		margin: 30px 0 0;
+		padding:0;
+	}
+	.section7__block {
+		height: auto;
+	}
+	.label {
+		margin: 20px 20px 0!important;
+	}
+	.labs {
+		margin-bottom: 50px;
+	}
+	.section7__block button {
+		margin-top: 20px;
+	}
+	.footer__nav {
+		margin-top: 50px;
+		padding-bottom: 50px;
+	}
+	.nav_header {
+		margin-right: 8px
+	}
+	.nav_header:last-child{margin: 0}
+	.logo {
+		margin-right: 15px;
+	}
+	.button__signin, #btn_demo {
+		margin: 0;
+	}
+}
